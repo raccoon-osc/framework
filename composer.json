@@ -1,0 +1,11 @@
+{
+    "name": "octopusosc/framework",
+    "description": "Octopus Osc Framework",
+    "authors": [
+        {
+            "name": "Levi Luong",
+            "email": "luongtien270297@gamil.com"
+        }
+    ],
+    "require": {}
+}
