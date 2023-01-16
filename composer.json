@@ -10,7 +10,8 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "OctopusOsc\\Framework\\": "src"
+            "OctopusOsc\\Framework\\": "src",
+            "Illuminate\\Foundation\\Bootstrap\\": "framework/Illuminate/Foundation/Bootstrap/"
         }
     },
     "minimum-stability": "dev"
