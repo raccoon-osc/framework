@@ -10,9 +10,17 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "OctopusOsc\\Framework\\": "src",
-            "Illuminate\\Foundation\\Bootstrap\\": "framework/Illuminate/Foundation/Bootstrap/"
+            "OctopusOsc\\Framework\\": "",
         }
     },
+    "extra": {
+    "laravel": {
+        "providers": [
+            "OctopusOsc\\Framework\\Providers\\AppServiceProvider"
+        ],
+        "aliases": {
+        }
+    }
+},
     "minimum-stability": "dev"
 }
