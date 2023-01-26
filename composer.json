@@ -10,17 +10,17 @@
     "require": {},
     "autoload": {
         "psr-4": {
-            "OctopusOsc\\Framework\\": "",
+            "OctopusOsc\\Framework\\": ""
         }
     },
     "extra": {
-    "laravel": {
-        "providers": [
-            "OctopusOsc\\Framework\\Providers\\AppServiceProvider"
-        ],
-        "aliases": {
+        "laravel": {
+            "providers": [
+                "OctopusOsc\\Framework\\Providers\\AppServiceProvider"
+            ],
+            "aliases": {
+            }
         }
-    }
-},
+    },
     "minimum-stability": "dev"
 }
